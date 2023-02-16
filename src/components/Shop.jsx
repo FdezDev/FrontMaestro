@@ -69,7 +69,7 @@ function Shop() {
             <div>
                 <form>
                     <Modal isOpen={modaladd}>
-                        <p>f</p>
+                        <p>hello </p>
                     </Modal>
                 </form>
 
@@ -79,7 +79,7 @@ function Shop() {
             <div>
                 <form>
                     <Modal isOpen={modaladdAttendance}>
-                        <p>f</p>
+                        <p>hello</p>
                     </Modal>
                 </form>
 
