@@ -13,3 +13,19 @@
     height: 200px;
 
 }
+.containerButon{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+    gap: 16px;
+}
+.box{
+height: 150px;
+display: grid;
+place-items: center;
+}
+.panico{
+    background: #DA5374;
+}
+.asistencia{
+    background: #54DCE4;
+}
