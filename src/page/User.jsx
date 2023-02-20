@@ -1,4 +1,3 @@
-import Upimg from "../components/Upimg";
 import React, { useState } from "react";
 import asistencia from "../asset/img/icons.png";
 
