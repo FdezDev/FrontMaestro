@@ -6,7 +6,7 @@ function Shop() {
   return (
     <>
       <nav class="navbar navbar-expand-lg bg-secondary">
-        <div class="container-fluid g-0">
+        <div class="container-fluid g-0 px-3">
           <button
             class="navbar-toggler"
             type="button"
@@ -75,7 +75,7 @@ function Shop() {
               <div class="modal-content">
                 <div class="modal-header">
                   <h1 class="modal-title fs-5" id="staticBackdropLabel">
-                    Modal title
+                    Modal Panico
                   </h1>
                   <button
                     type="button"
@@ -84,17 +84,14 @@ function Shop() {
                     aria-label="Close"
                   ></button>
                 </div>
-                <div class="modal-body">...</div>
+                <div class="modal-body"><p>Hola<br/> si desea activar la alarma de click en el boton activar<br/>si no cierre el anuncio en la X </p></div>
                 <div class="modal-footer">
                   <button
                     type="button"
-                    class="btn btn-secondary"
+                    class="btn btn-success"
                     data-bs-dismiss="modal"
                   >
-                    Close
-                  </button>
-                  <button type="button" class="btn btn-primary">
-                    Understood
+                    Activar alarma
                   </button>
                 </div>
               </div>
@@ -115,7 +112,7 @@ function Shop() {
               <div class="modal-content">
                 <div class="modal-header">
                   <h1 class="modal-title fs-5" id="staticBackdropLabel">
-                    Modal title
+                    Modal Asistencia
                   </h1>
                   <button
                     type="button"
@@ -124,17 +121,14 @@ function Shop() {
                     aria-label="Close"
                   ></button>
                 </div>
-                <div class="modal-body">...</div>
+                <div class="modal-body"><p>Hola<br/> si desea activar la alarma de click en el boton activar<br/>si no cierre el anuncio en la X </p></div>
                 <div class="modal-footer">
                   <button
                     type="button"
-                    class="btn btn-secondary"
+                    class="btn btn-success"
                     data-bs-dismiss="modal"
                   >
-                    Close
-                  </button>
-                  <button type="button" class="btn btn-primary">
-                    Understood
+                    Activar alarma
                   </button>
                 </div>
               </div>
