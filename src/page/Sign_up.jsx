@@ -19,11 +19,11 @@ function Sign_up() {
     const [city, setCity] = useState('');
     const [colonia, setColonia] = useState('');
     const [edificio, setEdificio] = useState('');
-
+    const [codigoPostal, setcodigoPostal] = useState('');
     // función para manejar el envío del formulario
     const handleSubmit = (event) => {
         event.preventDefault();
-        console.log('Datos del formulario enviado:', { email, password, name, phone, state, city, colonia, edificio });
+        console.log('Datos del formulario enviado:', { email, password, name, phone, state, codigoPostal, city, colonia, edificio });
         // Aquí podríamos enviar los datos a un servidor o hacer cualquier otra acción necesaria
     };
 
@@ -84,7 +84,10 @@ function Sign_up() {
                             </>
                         )}
                         {step === 3 && (
-                            <>
+                            <><Form.Group controlId="codigo Postal">
+                                <Form.Label>codigoPostal</Form.Label>
+                                <Form.Control type="text" value={state} onChange={(e) => setcodigoPostal(e.target.value)} />
+                            </Form.Group>
                                 <Form.Group controlId="state">
                                     <Form.Label>Estado</Form.Label>
                                     <Form.Control type="text" value={state} onChange={(e) => setState(e.target.value)} />
@@ -114,9 +117,9 @@ function Sign_up() {
                         }
                         {step === 4 && (
                             <>
-                            <div className="d-grip mt-3">
-                                <div class="alert alert-info" role="alert">
-                                OJO!! para poder iniciar sesion es necesario confirmar tu cuenta, sete enviara un correo despues de crear la cuenta                                </div>
+                                <div className="d-grip mt-3">
+                                    <div class="alert alert-info" role="alert">
+                                        OJO!! para poder iniciar sesion es necesario confirmar tu cuenta, sete enviara un correo despues de crear la cuenta                                </div>
                                 </div>
                                 <div className="d-grid mt-3">
                                     <Button variant="primary" type="submit">Crear cuenta</Button>
